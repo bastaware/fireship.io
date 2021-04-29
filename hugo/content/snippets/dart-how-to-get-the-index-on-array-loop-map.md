@@ -82,7 +82,7 @@ final List uniqueList = Set.from(myList).toList();
 
 
 uniqueList.map((val) {
-    String idx = uniqueList.indexOf(val);
+    int idx = uniqueList.indexOf(val);
 
     return something;
 }
